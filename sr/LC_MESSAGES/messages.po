@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-12-06 07:01-0700\n"
-"PO-Revision-Date: 2013-07-17 10:01+0000\n"
+"PO-Revision-Date: 2013-07-17 11:05+0000\n"
 "Last-Translator: Milos <mdinic@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr\n"
@@ -14,7 +14,7 @@ msgstr ""
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.5.0-rc1\n"
 "Generated-By: Babel 0.9.5\n"
-"X-POOTLE-MTIME: 1374055275.0\n"
+"X-POOTLE-MTIME: 1374059140.0\n"
 
 #: apps/badges/templates/badges/my_badges.html:9 apps/facebook/templates/facebook/banner_list.html:15
 msgid "These are the banners you've created so far:"
@@ -788,7 +788,7 @@ msgstr "Преузмите аурора градњу"
 # Badge that user can display on their website.
 #: apps/shared/strings.py:46
 msgid "Aurora <span>for</span> Android"
-msgstr "Аурора <span>за</span> Андроид"
+msgstr "Аурора <span>за</span> Анд"
 
 # Badge that user can display on their website.
 #: apps/shared/strings.py:47
