@@ -1,0 +1,1830 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-12-11 07:32-0700\n"
+"PO-Revision-Date: 2012-08-02 15:49+0200\n"
+"Last-Translator: Matjaž <m@owca.info>\n"
+"Language-Team: slovenski <https://wiki.mozilla.org/L10n:Teams:sl>\n"
+"Language: sl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);\n"
+"X-Generator: Pootle 2.1.6\n"
+"Generated-By: Babel 0.9.5\n"
+
+#: apps/badges/templates/badges/my_badges.html:9 apps/facebook/templates/facebook/banner_list.html:15
+msgid "These are the banners you've created so far:"
+msgstr "Doslej ste naredili naslednje pasice:"
+
+#: apps/badges/templates/badges/my_badges.html:18 apps/facebook/templates/facebook/banner_list.html:76 apps/facebook/templates/facebook/include/sub-nav.html:7 templates/layout/banners_nav.html:7
+#, fuzzy
+msgid "Create a new banner"
+msgstr "Ustvarite novo pasico &raquo;"
+
+#. Refers to a table showing the top 5 users with the most clicks.
+#. clicks on their banners.
+#: apps/badges/templates/badges/include/leaderboard.html:7 apps/badges/templates/badges/include/leaderboard.html:54 apps/facebook/templates/facebook/base.html:45
+msgid "Leaderboard"
+msgstr "Top lista"
+
+#. PT = Pacific Time
+#: apps/badges/templates/badges/include/leaderboard.html:12
+msgid "Check out how many people have clicked to download Firefox. <br> Where are you on the leaderboard? <br> Leaderboard statics are updated at midnight PT each day."
+msgstr "Poglejte, koliko ljudi je kliknilo na prenos Firefox. <br> Kje ste na lestvici vodilnih? <br>Statistiko obnavljamo enkrat dnevno opolnoči po tihomorskem času."
+
+#: apps/badges/templates/badges/include/leaderboard.html:22
+msgid "TOP 5 AFFILIATES WITH THE MOST FIREFOX CLICKS"
+msgstr "PRVIH 5 ZAVEZNIKOV Z NAJVEČ KLIKI NA FIREFOX"
+
+#: apps/badges/templates/badges/include/leaderboard.html:27
+msgid "USER"
+msgstr "UPORABNIK"
+
+#: apps/badges/templates/badges/include/leaderboard.html:28 apps/badges/templates/badges/include/sidebar_profile.html:18
+msgid "CLICKS"
+msgstr "KLIKI"
+
+#: apps/badges/templates/badges/include/macros.html:5
+msgid "Follow these easy steps to create a new banner:"
+msgstr "Nekaj enostavnih korakov za novo pasico:"
+
+#: apps/badges/templates/badges/include/macros.html:7
+msgid "Follow these easy steps to get started:"
+msgstr "Nekaj enostavnih korakov za začetek:"
+
+#: apps/badges/templates/badges/include/macros.html:15
+msgid "PICK A CATEGORY"
+msgstr "IZBERI KATEGORIJO"
+
+#: apps/badges/templates/badges/include/macros.html:25
+msgid "PICK A BANNER"
+msgstr "IZBERI PASICO"
+
+#: apps/badges/templates/badges/include/macros.html:29
+msgid "CONFIGURE &amp; POST"
+msgstr "KONFIGURIRAJ &amp; OBJAVI"
+
+#: apps/badges/templates/badges/include/macros.html:64
+msgid "&laquo; Back"
+msgstr "&laquo; Nazaj"
+
+#: apps/badges/templates/badges/include/macros.html:83
+msgid "CREATION DATE:"
+msgstr "DATUM OTVORITVE:"
+
+#: apps/badges/templates/badges/include/macros.html:87
+msgid "CLICKS:"
+msgstr "KLIKI:"
+
+#: apps/badges/templates/badges/include/macros.html:91
+msgid "LINKED URL:"
+msgstr "POVEZANI URL:"
+
+#: apps/badges/templates/badges/include/macros.html:96
+msgid "EMBED CODE:"
+msgstr "VGRADITE KODO:"
+
+#: apps/badges/templates/badges/include/sidebar_profile.html:11 apps/facebook/templates/facebook/base.html:134
+msgid "Your Statistics Summary"
+msgstr "Vaša statistika"
+
+#: apps/badges/templates/badges/include/sidebar_profile.html:14 apps/facebook/templates/facebook/base.html:138
+msgid "You can filter results by selecting a specific month using the calendar above."
+msgstr "Rezultate lahko filtrirate, in sicer tako, da si izberete mesec v koledarju zgoraj."
+
+#: apps/badges/templates/badges/include/sidebar_profile.html:22
+msgid "You"
+msgstr "Vi"
+
+#: apps/badges/templates/badges/include/sidebar_profile.html:30
+msgid "Affiliates average"
+msgstr "Povprečje zaveznikov"
+
+#: apps/badges/templates/badges/include/sidebar_profile.html:37
+msgid "Your total"
+msgstr "Skupaj vi"
+
+#: apps/badges/templates/badges/include/sidebar_profile.html:41 apps/facebook/templates/facebook/base.html:140
+msgid "Statistics are currently unavailable."
+msgstr "Statistike trenutno niso na voljo."
+
+#: apps/badges/templates/badges/include/sidebar_profile.html:47
+msgid "Start Spreading the Word!"
+msgstr "Začnite razglašati!"
+
+#: apps/badges/templates/badges/include/sidebar_profile.html:49
+msgid "You have <span>0</span> banners posted."
+msgstr "Objavili ste <span>0</span> pasic."
+
+#: apps/badges/templates/badges/new_badge/step1.html:11
+msgid "Category: <span>%(category_name)s</span>"
+msgstr "Kategorija: <span>%(category_name)s</span>"
+
+#. subcategory_name is the name of the group of banners being displayed below.
+#: apps/badges/templates/badges/new_badge/step2.html:11
+msgid "Now choose the type of <span>%(subcategory_name)s</span> banner you want to display on your website or blog:"
+msgstr "Izberite sedaj vrsto <span>%(subcategory_name)s</span> pasice, ki jo želite prikazati na svoji spletni strani ali v blogu:"
+
+#. subcategory_name is the name of a group of banners, e.g. Firefox for Mobile.
+#: apps/badges/templates/badges/new_badge/step3.html:11
+msgid "Finally, choose the size and color of your <span>%(subcategory_name)s</span> banner, then you can copy its code onto your website or blog."
+msgstr "Ob koncu izberite velikost in barvo svoje <span>%(subcategory_name)s</span> pasice, tako da lahko kopirate kodo na svojo spletno stran ali v blog."
+
+#. L10n: Width and height are the width and height of an image.
+#: apps/banners/models.py:23
+msgid "%(width)sx%(height)s pixels"
+msgstr "%(width)sx%(height)s pik"
+
+#: apps/banners/templates/banners/customize.html:11
+msgid "Language"
+msgstr "Jezik"
+
+#: apps/banners/templates/banners/customize.html:15
+msgid "Size"
+msgstr "Velikost"
+
+#: apps/banners/templates/banners/customize.html:19
+msgid "Color"
+msgstr "Barva"
+
+# 75%
+#: apps/banners/templates/banners/customize.html:27
+msgid "Save Banner &raquo;"
+msgstr "Shrani pasico &raquo;"
+
+#: apps/banners/templates/banners/details.html:2
+msgid "SIZE"
+msgstr "VELIKOST"
+
+#: apps/browserid/forms.py:18 apps/users/forms.py:167 apps/users/templates/users/include/register_form.html:11
+msgid "Your display name"
+msgstr "Vaše prikazno ime"
+
+#: apps/browserid/templates/browserid/include/register_form.html:6
+msgid "You're almost there!"
+msgstr "Ne manjka več veliko!"
+
+#: apps/browserid/templates/browserid/include/register_form.html:7
+msgid "Fill out the form below to finish your registration and begin creating banners."
+msgstr "Izpolnite obrazec spodaj, da končate svojo registracijo, in začnite ustvarjati pasice."
+
+#. L10n: &hellip; is an ellipses, the three dots like "I love Firefox because..."
+#: apps/facebook/forms.py:19
+msgid "I love Firefox because&hellip;"
+msgstr ""
+
+#: apps/facebook/forms.py:83
+msgid "Sorry. Your message is too long. Please tell the world why you love Firefox in 90 characters or less."
+msgstr ""
+
+#. L10n: Used in a dropdown that lets users filter the Leaderboard by
+#. L10n: country. Refers to the default filter, which shows all countries
+#: apps/facebook/forms.py:169
+msgid "All"
+msgstr ""
+
+#. L10n: Used in a choice field where users can choose between receiving
+#. L10n: HTML-based or Text-only newsletter emails.
+#: apps/facebook/forms.py:190
+msgid "Text"
+msgstr ""
+
+#: apps/facebook/forms.py:193 apps/facebook/templates/facebook/base.html:159 apps/shared/forms.py:36 apps/shared/templates/shared/include/sidebar/newsletter_subscribe.html:8 apps/users/forms.py:28
+#: apps/users/forms.py:168 apps/users/templates/users/include/register_form.html:14
+msgid "Your email address"
+msgstr "Vaš e-poštni naslov"
+
+#. Account linking lets a user associate an Affiliates account with their Facebook app account. Description is in another string. :D
+#: apps/facebook/managers.py:140 apps/facebook/templates/facebook/base.html:86
+#, fuzzy
+msgid "Link your Firefox Affiliates account"
+msgstr "Aktivirajte prosim svoj račun za Zaveznike Firefoxa"
+
+#: apps/facebook/models.py:314
+msgid "Way to go! You've had {0} clicks on your Firefox banner."
+msgstr ""
+
+#: apps/facebook/models.py:316
+msgid "Amazing! You've had {0} clicks on your Firefox banner. Thanks for spreading the word."
+msgstr ""
+
+#: apps/facebook/models.py:319
+msgid "Wow! Your banner has {0} clicks! It's ready to grow up and become a Firefox ad."
+msgstr ""
+
+#: apps/facebook/models.py:321
+msgid "Congratulations! Your Firefox banner has now become a Facebook ad!"
+msgstr ""
+
+#: apps/facebook/views.py:178
+msgid "Your banner has been deleted."
+msgstr ""
+
+#: apps/facebook/views.py:212
+msgid "You have successfully posted a banner to your wall !"
+msgstr ""
+
+#: apps/facebook/views.py:303
+msgid "You have successfully sent a message to one of your friends!"
+msgstr ""
+
+#. Banner styles are images that will be used as the background of a banner that the user creates.
+#: apps/facebook/templates/facebook/banner_create.html:18
+msgid "First, choose one of the banner styles below."
+msgstr ""
+
+#: apps/facebook/templates/facebook/banner_create.html:24
+msgid "Please correct the errors in the form below."
+msgstr ""
+
+#. Used above a box showing what a banner will look like once it is created.
+#: apps/facebook/templates/facebook/banner_create.html:26
+#, fuzzy
+msgid "Your banner preview"
+msgstr "predogled značk"
+
+#: apps/facebook/templates/facebook/banner_create.html:36
+msgid "Next, tell the world why you love Firefox in 90 characters or less."
+msgstr ""
+
+#: apps/facebook/templates/facebook/banner_create.html:42
+msgid "Use my profile image"
+msgstr ""
+
+#. Label for a checkbox that gives us permission to use the user's banner in a paid Facebook ad.
+#: apps/facebook/templates/facebook/banner_create.html:46
+msgid "Feature me in a paid Facebook ad."
+msgstr ""
+
+#. Used on a link that, when clicked, pops up a text bubble with an explanation of a form field.
+#: apps/facebook/templates/facebook/banner_create.html:49
+#, fuzzy
+msgid "What does this mean?"
+msgstr "Kaj je to?"
+
+#: apps/facebook/templates/facebook/banner_create.html:52
+msgid ""
+"If you get %(click_count)s clicks or more, we would like to have permission to turn your banner into a paid ad on Facebook in your region. By checking this box you are granting us permission to use "
+"your banner in a paid Facebook ad, including your profile photo if you checked the box to include it in the banner, and the text you added to the banner. For a full description of the rights you "
+"are granting and more information, see the FAQs. Don't want to be featured in an ad? Make sure you don't opt in. If you opted in and don't want to be featured anymore, send us a note at <a href="
+"\"%(link)s\">affiliates@mozilla.org</a> and we'll make sure your ad is removed."
+msgstr ""
+
+#: apps/facebook/templates/facebook/banner_create.html:68
+msgid "Save"
+msgstr ""
+
+#: apps/facebook/templates/facebook/banner_create.html:69
+msgid "Save and Share"
+msgstr ""
+
+#: apps/facebook/templates/facebook/banner_list.html:14
+msgid "Are you sure?"
+msgstr ""
+
+#. Heading referring to when a banner was created.
+#: apps/facebook/templates/facebook/banner_list.html:26
+msgid "Creation date"
+msgstr ""
+
+#. Heading above the number of clicks a banner has received.
+#: apps/facebook/templates/facebook/banner_list.html:30
+msgid "Clicks"
+msgstr ""
+
+#. Link that, when clicked, shows a dialog for posting a banner to a user's Facebook feed.
+#: apps/facebook/templates/facebook/banner_list.html:37
+msgid "Post to Feed"
+msgstr ""
+
+#: apps/facebook/templates/facebook/banner_list.html:45
+msgid "Delete"
+msgstr ""
+
+#: apps/facebook/templates/facebook/banner_list.html:67
+#, fuzzy
+msgid "Click Goal: <span>%(count)s</span>"
+msgstr "Kategorija: <span>%(category_name)s</span>"
+
+#: apps/facebook/templates/facebook/base.html:15 templates/base.html:5 templates/base.html:8 templates/base.html:12
+msgid "Firefox Affiliates"
+msgstr "Zavezniki Firefoxa"
+
+#: apps/facebook/templates/facebook/base.html:16 apps/shared/templates/shared/home/browserid.html:43
+#, fuzzy
+msgid "Help us share Firefox with the world."
+msgstr "Vse, kar potrebujete, da si Firefox delite s svetom."
+
+#: apps/facebook/templates/facebook/base.html:20 apps/facebook/templates/facebook/base.html:148
+msgid "Invite your friends to Download Firefox!"
+msgstr ""
+
+#: apps/facebook/templates/facebook/base.html:29
+msgid "My banners"
+msgstr ""
+
+#. answers to common questions about the app.
+#. FAQs is an abbreviation for Frequently Asked Questions
+#: apps/facebook/templates/facebook/base.html:37 apps/facebook/templates/facebook/faq.html:13 apps/shared/templates/shared/faq.html:11
+msgid "FAQs"
+msgstr "Pogosta vprašanja"
+
+#: apps/facebook/templates/facebook/base.html:92
+msgid ""
+"Do you already have an account from affiliates.mozilla.org? You can link your account to this application and you'll get credit for any clicks that you drive through Facebook. To connect your "
+"account, just click here and fill in your information. We'll send you an email to confirm. If you'd like to sign up for an account, just visit <a href=\"%(link)s\">affiliates.mozilla.org</a>."
+msgstr ""
+
+#. Label used for the account linking button.
+#: apps/facebook/templates/facebook/base.html:103
+msgid "Submit"
+msgstr ""
+
+#: apps/facebook/templates/facebook/base.html:107
+msgid "Thanks for linking your affiliates.mozilla.org account."
+msgstr ""
+
+#: apps/facebook/templates/facebook/base.html:108
+msgid "If the email address you entered has an account, you will receive a confirmation email."
+msgstr ""
+
+#: apps/facebook/templates/facebook/base.html:113
+msgid "Linked to <a href=\"%(link)s\">affiliates.mozilla.org</a>"
+msgstr ""
+
+#: apps/facebook/templates/facebook/base.html:120
+msgid "This account is linked to affiliates.mozilla.org. You are credited for clicks from Facebook. You can unlink accounts by clicking below."
+msgstr ""
+
+#. Text on a button that lets a user unlink their Facebook and Affiliates accounts.
+#: apps/facebook/templates/facebook/base.html:125
+#, fuzzy
+msgid "Remove %(email_address)s"
+msgstr "Vaš e-poštni naslov"
+
+#. Column heading in the leaderboard
+#: apps/facebook/templates/facebook/base.html:139 apps/facebook/templates/facebook/leaderboard.html:27
+msgid "Total clicks"
+msgstr ""
+
+#: apps/facebook/templates/facebook/base.html:144
+msgid "Be a part of the Firefox movement"
+msgstr ""
+
+#: apps/facebook/templates/facebook/base.html:145
+msgid "It's easy!"
+msgstr ""
+
+#: apps/facebook/templates/facebook/base.html:147
+msgid "Create your custom banner."
+msgstr ""
+
+#: apps/facebook/templates/facebook/base.html:149
+msgid "Get clicks and you could be featured in a paid Facebook ad."
+msgstr ""
+
+#: apps/facebook/templates/facebook/base.html:155
+#, fuzzy
+msgid "Get Firefox News"
+msgstr "O Firefox"
+
+#: apps/facebook/templates/facebook/base.html:171
+msgid "I agree to the <a href=\"%(link)s\">Privacy Policy</a>"
+msgstr ""
+
+#: apps/facebook/templates/facebook/base.html:175
+msgid "We will only send you Mozilla-related information."
+msgstr ""
+
+#. Label used for the newsletter signup button.
+#: apps/facebook/templates/facebook/base.html:180 apps/shared/templates/shared/include/sidebar/newsletter_subscribe.html:10
+msgid "Sign me up!"
+msgstr ""
+
+#. Text used in email sent by application.
+#. Appears at the end of emails.
+#: apps/facebook/templates/facebook/base.html:184 apps/facebook/templates/facebook/link_activation_email.html:13 apps/shared/templates/shared/include/sidebar/newsletter_subscribe.html:13
+#: apps/users/templates/users/email/activation_email.html:18 apps/users/templates/users/email/pw_reset.html:15
+msgid "Thanks!"
+msgstr "Hvala!"
+
+#: apps/facebook/templates/facebook/error.html:10 templates/404.html:12
+msgid "Whoops!"
+msgstr "Opla!"
+
+#: apps/facebook/templates/facebook/error.html:11 templates/404.html:13
+msgid "What are you doing here?"
+msgstr "Kako pa ste zašli sem?"
+
+#: apps/facebook/templates/facebook/error.html:14
+#, fuzzy
+msgid "Did you make a left at that last URL instead of a right? No problem. Here are some tips to get you back on your way:"
+msgstr "Zavili na levo na zadnjem URL namesto desno, kajne? Ni problema. Razen če ne želite, da iščemo naprej, nekaj nasvetov, kako se vrnete na pravo pot:"
+
+#: apps/facebook/templates/facebook/error.html:21 templates/404.html:31
+msgid "If you typed in the address, check your spelling. Could just be a typo."
+msgstr "Če ste vnesli naslov, preverite črkovanje. Morda ste se zatipkali."
+
+#: apps/facebook/templates/facebook/error.html:26 templates/404.html:33
+msgid "If you followed a link, it’s probably broken. Please <a href=\"mailto:%(email)s\">contact us</a> and we’ll fix it."
+msgstr "Če ste sledili povezavi, gre verjetno za polomljen naslov. Prosim <a href=\"mailto:%(email)s\">pišite nam</a> pa ga bomo popravili."
+
+#: apps/facebook/templates/facebook/error.html:32
+#, fuzzy
+msgid "If you're not sure what you're looking for, start at <a href=\"%(link)s\">mozilla.org</a>."
+msgstr "Če ne veste, kod in kam, začnite znova pri <a href=\"%(href)s\">mozilla.org</a>."
+
+#. Title of a category of questions on the help page
+#: apps/facebook/templates/facebook/faq.html:18
+#, fuzzy
+msgid "Using Affiliate banners"
+msgstr "Kako se uporablja zavezniške gumbe"
+
+#: apps/facebook/templates/facebook/faq.html:21
+#, fuzzy
+msgid "What is Firefox Affiliates?"
+msgstr "Zavezniki Firefoxa"
+
+#: apps/facebook/templates/facebook/faq.html:24
+#, fuzzy
+msgid ""
+"Firefox Affiliates allows you to build banners and place them on your Facebook profile to encourage visitors to download Firefox. When a visitor to your page or status update clicks on a banner and "
+"visits the Firefox download page, you get credit for that click. Affiliates who get a lot of clicks through their profile will be featured on our leaderboard and be eligible for fun stuff like "
+"Firefox T-shirts and, if you opt in, we may feature your banner in a paid-ad on the Facebook ad network. While we do send out prizes and gifts to our Affiliates from time to time, Firefox "
+"Affiliates does not offer monetary rewards for hosting Firefox banners."
+msgstr ""
+"Gumbi za Zaveznike Firefoxa so koščki html kode, ki jih lahko dodate na svojo spletno stran ali v blog, s katerimi spodbudite svoje obiskovalce, da si prenesejo Firefox. Ko obiskovalec na vaši "
+"spletni strani klikne na gumb za prenos Firefoxa, boste dobili za ta prenos dobropis. Zaveznike z veliko prenosov preko njihove spletne strani bomo predstavili na naši top listi in bodo imeli "
+"pravico do zabavne drobnarije, kot so Firefox T-majice. Od časa do časa pošiljamo nagrade in darila za svoje partnerje, vendar Zavezniki Firefoxa za gostovanje gumbov ne nudijo denarne nagrade."
+
+#: apps/facebook/templates/facebook/faq.html:43
+#, fuzzy
+msgid "How do I add a banner to my Facebook profile?"
+msgstr "Kako dodam gumb na svojo spletno stran?"
+
+#: apps/facebook/templates/facebook/faq.html:48
+msgid ""
+"Select a banner design that you like using the <a href=\"%(link)s\">banner builder</a>, add a personal message about why you love Firefox and then click \"share.\" This will post the banner to your "
+"Facebook timeline and into your friends' newsfeed."
+msgstr ""
+
+#: apps/facebook/templates/facebook/faq.html:60
+msgid "How do I invite a friend to use Firefox?"
+msgstr ""
+
+#: apps/facebook/templates/facebook/faq.html:64
+msgid ""
+"If you'd like to personally invite someone to use Firefox, just select \"Share ad with friends\" from the side menu and you will be able to send a Facebook message with a custom Firefox download "
+"link. If your friend clicks on the link, you'll also get credit for the click."
+msgstr ""
+
+#: apps/facebook/templates/facebook/faq.html:76
+msgid "Can my banner become a paid Facebook ad?"
+msgstr ""
+
+#: apps/facebook/templates/facebook/faq.html:80
+msgid ""
+"If you checked the box to allow your banner to be featured in a paid Facebook ad, once you've reached %(click_count)s clicks on a Facebook banner, your banner will become eligible to be a paid "
+"Facebook ad. This means that Mozilla will pay to have an ad placed on the Facebook ad network sharing your message of why you love Firefox. We will notify you if your banner is chosen to be a paid "
+"ad in your region. If you do not want to participate in this, don't click the opt-in when you build your banner. If you've opted in by accident, please contact us at <a href=\"%(link)s"
+"\">affiliates@mozilla.org</a> and we'll make sure you aren't included in the ad selection."
+msgstr ""
+
+#: apps/facebook/templates/facebook/faq.html:100
+msgid "If I opted in to having my banner become a paid Facebook ad, what exactly am I giving you permission to do?"
+msgstr ""
+
+#: apps/facebook/templates/facebook/faq.html:108
+msgid ""
+"You are giving us permission to use, reproduce, distribute, edit, and display your photo, if it is included in your banner, and your message about why you love Firefox, for commercial purposes, "
+"specifically in a paid ad on Facebook. You are also acknowledging that you will not be paid for the use of your banner."
+msgstr ""
+
+#: apps/facebook/templates/facebook/faq.html:119
+msgid "How do I remove the application?"
+msgstr ""
+
+#: apps/facebook/templates/facebook/faq.html:122
+msgid ""
+"To remove the application, access your applications in the Facebook settings menu. Delete the application from your list of authorized apps and we'll delete your Affiliates profile on Facebook and "
+"the information associated with it. Note: Deleting the application on Facebook will not delete your affiliates.mozilla.org profile if you had one prior to installing the application. To delete that "
+"profile, please contact us at <a href=\"%(link)s\">affiliates@mozilla.org</a>."
+msgstr ""
+
+#: apps/facebook/templates/facebook/faq.html:138
+msgid "How do I connect to my Firefox Affiliates account on affiliates.mozilla.org?"
+msgstr ""
+
+#: apps/facebook/templates/facebook/faq.html:146
+msgid ""
+"To connect your affiliates.mozilla.org account to this application, please use the connection wizard on the My Banners page. We'll send you an email to confirm that we've connected the accounts. If "
+"you'd like to sign up for an account, just visit <a href=\"%(link)s\">affiliates.mozilla.org</a>."
+msgstr ""
+
+#. Title of a category of questions on the help page
+#: apps/facebook/templates/facebook/faq.html:159 apps/shared/templates/shared/faq.html:94
+msgid "Leaderboard and User Statistics"
+msgstr "Top lista in uporabniška statistika"
+
+#: apps/facebook/templates/facebook/faq.html:163
+#, fuzzy
+msgid "How often does the leaderboard get updated?"
+msgstr "Kako pogosto se top listo posodablja?"
+
+#: apps/facebook/templates/facebook/faq.html:167
+msgid "The leaderboard updates every day at midnight Pacific Time, so be sure to check in to see where you stand."
+msgstr ""
+
+#: apps/facebook/templates/facebook/faq.html:177 apps/shared/templates/shared/faq.html:112
+msgid "Is there a prize for getting the most Firefox clicks?"
+msgstr "Ali dobim nagrado, če sem na prvem mestu po številu klikov?"
+
+#: apps/facebook/templates/facebook/faq.html:182
+msgid ""
+"No, though from time to time we may run contests to see who can get the most clicks for different Firefox products and campaigns. The winners will get Firefox T-shirts, hoodies and other awesome "
+"things we have at Mozilla HQ."
+msgstr ""
+
+#: apps/facebook/templates/facebook/faq.html:194 apps/shared/templates/shared/faq.html:127
+msgid "I think my click statistics are wrong. Is there any way to fix them?"
+msgstr "Mislim, da je moja statistika klikov napačna. Ali jo je mogoče kako popraviti?"
+
+#: apps/facebook/templates/facebook/faq.html:202
+msgid "Let us know. Send us a note at <a href=\"%(link)s\">affiliates@mozilla.org</a> and tell us what the problem is."
+msgstr ""
+
+#: apps/facebook/templates/facebook/first_run.html:8 apps/facebook/templates/facebook/pre_auth_promo.html:17
+#, fuzzy
+msgid "Welcome to Firefox Affiliates"
+msgstr "Dobrodošli pri Zaveznikih Firefoxa."
+
+#: apps/facebook/templates/facebook/first_run.html:11 apps/facebook/templates/facebook/pre_auth_promo.html:20
+msgid ""
+"This is your one stop shop for telling the world about the only browser that puts you first: Firefox! Start now by building a banner to post on your Facebook profile. Get a ton of clicks and we may "
+"feature you in a Firefox ad (with your permission, of course) or send you some great Firefox gear."
+msgstr ""
+
+#: apps/facebook/templates/facebook/first_run.html:20 apps/facebook/templates/facebook/pre_auth_promo.html:31
+msgid "Let's go!"
+msgstr ""
+
+#: apps/facebook/templates/facebook/invite.html:6 apps/facebook/templates/facebook/strings.html:22 templates/global/header.html:4
+msgid "Mozilla Firefox"
+msgstr "Mozilla Firefox"
+
+#: apps/facebook/templates/facebook/invite.html:7 apps/facebook/templates/facebook/strings.html:23
+msgid "Different by design. It's fast, flexible and secure. Share Firefox with your friends today."
+msgstr ""
+
+#: apps/facebook/templates/facebook/leaderboard.html:11
+msgid "Affiliates with the most clicks"
+msgstr ""
+
+#. Column heading in the leaderboard
+#: apps/facebook/templates/facebook/leaderboard.html:23
+msgid "Rank"
+msgstr ""
+
+#. Column heading in the leaderboard
+#: apps/facebook/templates/facebook/leaderboard.html:25
+#, fuzzy
+msgid "User"
+msgstr "Uporabniško ime"
+
+#. Text used in email sent by application.
+#: apps/facebook/templates/facebook/link_activation_email.html:2
+msgid "Hi there!"
+msgstr ""
+
+#. Text used in email sent by application.
+#: apps/facebook/templates/facebook/link_activation_email.html:5
+msgid ""
+"Thank you for linking your Firefox Affiliates account with the Affiliates Facebook application. Please click on the link below and you'll get credit for any clicks that you drive through Facebook "
+"on the main Affiliates leaderboard."
+msgstr ""
+
+#. Text used in email sent by application.
+#: apps/facebook/templates/facebook/link_activation_email.html:10
+msgid "If you didn't request to link your account, just ignore this e-mail and your account will not be linked."
+msgstr ""
+
+#. Text used in email sent by application.
+#. Appears at the end of emails.
+#: apps/facebook/templates/facebook/link_activation_email.html:15 apps/users/templates/users/email/activation_email.html:21 apps/users/templates/users/email/pw_reset.html:18
+msgid "The Firefox Affiliates team"
+msgstr "Ekipa Zaveznikov Firefoxa"
+
+#. Description of a banner for use in alt attribute for accessibility.
+#: apps/facebook/templates/facebook/strings.html:3
+msgid "Download Firefox (Large Firefox logo rising in front of an orange background)"
+msgstr ""
+
+#. Description of a banner for use in alt attribute for accessibility.
+#: apps/facebook/templates/facebook/strings.html:5
+msgid "Download Firefox (Small Firefox logo on a light blue background)"
+msgstr ""
+
+#. Description of a banner for use in alt attribute for accessibility.
+#: apps/facebook/templates/facebook/strings.html:7
+msgid "Download Firefox (Large Firefox logo resting on a light blue background)"
+msgstr ""
+
+#. Description of a banner for use in alt attribute for accessibility.
+#: apps/facebook/templates/facebook/strings.html:9
+msgid "Download Firefox (For Android. A mobile phone in front of a faded Firefox logo with a light blue background)"
+msgstr ""
+
+#. Description of a banner for use in alt attribute for accessibility.
+#: apps/facebook/templates/facebook/strings.html:11
+msgid "Download Firefox (For Android. A mobile phone displaying a large Firefox logo on its screen, over a light blue background)"
+msgstr ""
+
+#. Description of a banner for use in alt attribute for accessibility.
+#: apps/facebook/templates/facebook/strings.html:13
+msgid "Download Firefox (For Android. Firefox logo floating over a mobile phone resting on an orange background)"
+msgstr ""
+
+#. Description of a banner for use in alt attribute for accessibility.
+#: apps/facebook/templates/facebook/strings.html:15
+msgid "Download Firefox (Person in a Firefox costume jumping happily on a beach)"
+msgstr ""
+
+#. Description of a banner for use in alt attribute for accessibility.
+#: apps/facebook/templates/facebook/strings.html:17
+msgid "Download Firefox (For Android. A mobile phone running Firefox for Android next to a coffee cup with the Firefox logo on it)"
+msgstr ""
+
+#: apps/facebook/templates/facebook/strings.html:21
+#, fuzzy
+msgid ""
+"Firefox Affiliates allows you to build banners and place them on your Facebook profile to encourage visitors to download Firefox. When a visitor to your page or status update clicks on a banner and "
+"visits the Firefox download page, you get credit for that click. Affiliates who get a lot of clicks through their profile will be featured on our leaderboard and be elegible for fun stuff like "
+"Firefox T-shirts. While we do send out prizes and gifts to our Affiliates from time to time, Firefox Affiliates does not offer monetary rewards for hosting Firefox banners."
+msgstr ""
+"Gumbi za Zaveznike Firefoxa so koščki html kode, ki jih lahko dodate na svojo spletno stran ali v blog, s katerimi spodbudite svoje obiskovalce, da si prenesejo Firefox. Ko obiskovalec na vaši "
+"spletni strani klikne na gumb za prenos Firefoxa, boste dobili za ta prenos dobropis. Zaveznike z veliko prenosov preko njihove spletne strani bomo predstavili na naši top listi in bodo imeli "
+"pravico do zabavne drobnarije, kot so Firefox T-majice. Od časa do časa pošiljamo nagrade in darila za svoje partnerje, vendar Zavezniki Firefoxa za gostovanje gumbov ne nudijo denarne nagrade."
+
+#: apps/facebook/templates/facebook/strings.html:27
+msgid "You will lose credit for all your clicks on this banner."
+msgstr ""
+
+#: apps/facebook/templates/facebook/strings.html:31
+msgid "Newsletter subscription unavailable at this time."
+msgstr ""
+
+#: apps/facebook/templates/facebook/strings.html:32 apps/users/templates/users/include/register_form.html:37
+msgid "I'd like to receive the Firefox Affiliate newsletter and periodic Firefox Affiliates updates via email."
+msgstr ""
+
+#: apps/facebook/templates/facebook/include/sub-nav.html:4
+msgid "Current banners"
+msgstr ""
+
+#: apps/news/templates/news/macros.html:4
+msgid "Latest News"
+msgstr "Zadnje novice"
+
+#: apps/shared/forms.py:31
+msgid "Enter e-mail"
+msgstr ""
+
+# Site news/notifications shown to users.
+#: apps/shared/strings.py:10
+msgid "The new Firefox Affiliates program is live!"
+msgstr "Novi program Zavezniki Firefoxa je v živo!"
+
+# Site news/notifications shown to users.
+#: apps/shared/strings.py:11
+msgid "Welcome to the new Firefox Affiliates program. Have a look around the site, grab some buttons and get on the leaderboard. Have feedback? Let us know at affiliates@mozilla.org."
+msgstr ""
+"Dobrodošli pri novem programu Zavezniki Firefoxa. Poglejte po spletni strani, prigrabite si nekaj gumbov in se začnite plezati na lestvico vodilnih. Imate pripombe? Pišite nam na affiliates@mozilla."
+"org."
+
+#: apps/shared/strings.py:15
+msgid "Help us make Firefox Affiliates better"
+msgstr "Pomagajte nam izboljšati Zaveznike Firefoxa"
+
+#: apps/shared/strings.py:16
+msgid ""
+"Firefox Affiliates has been live for a while now, but we need your help to keep making improvements to the system. If you are a web developer familiar with HTML, CSS, Python or Django and want to "
+"get involved with Mozilla, please contact us at affiliates@mozilla.org ."
+msgstr ""
+"Spetišče Zavezniki Firefoxa je zdaj odprto že nekaj časa, vendar potrebujemo vašo pomoč, da skupaj izboljšamo sistem. Če ste spletni razvijalec in se spoznate na HTML, CSS, Python in Django, pa bi "
+"se radi pridružili Mozilli, nam pišite na affiliates@mozilla.org ."
+
+#: apps/shared/strings.py:21
+msgid "Tell the world about Firefox for Android"
+msgstr "Razširite glas o Firefoxu za Android"
+
+#: apps/shared/strings.py:22
+msgid ""
+"Firefox for Android is here and we'd like your help in spreading the word. Just create a Firefox for Android banner and add it to your site in one of more than 30 languages. The affiliate "
+"responsible for the most Firefox for Android clicks will get a Firefox hoodie. If you have ideas for other buttons or want to help with Firefox Affiliates, please contact us at affiliates@mozilla."
+"org ."
+msgstr ""
+"Firefox za Android je tu, zato potrebujemo vašo pomoč pri širjenju te novice. Ustvarite pasico Firefoxa za Android v enem izmed 30 jezikov in jo dodajte na vašo stran. Zaveznik, ki bo priboril "
+"največ klikov na Firefox za Android bo dobil Firefoxovo majico s kapuco. Če imate ideje za druge gumbe ali želite pomagati Zaveznikom Firefoxa, nam pišite na affiliates@mozilla.org."
+
+# Category of badges to choose from.
+#: apps/shared/strings.py:30 templates/global/footer.html:33
+msgid "Firefox"
+msgstr "Firefox"
+
+# Category of badges to choose from.
+#: apps/shared/strings.py:31 templates/global/header.html:5
+msgid "Mozilla"
+msgstr "Mozilla"
+
+# Subcategory of badges to choose from.
+#: apps/shared/strings.py:34
+msgid "Mozilla Recruiting"
+msgstr "Mozilla zaposluje"
+
+# Subcategory of badges to choose from.
+#: apps/shared/strings.py:35
+msgid "Firefox <span>for</span> Mobile"
+msgstr "Firefox <span>za</span> mobilnike"
+
+# Subcategory of badges to choose from.
+#: apps/shared/strings.py:36
+msgid "Firefox <span>for</span> Desktop"
+msgstr "Firefox <span>za</span> namizni računalnik"
+
+# Subcategory of badges to choose from.
+#: apps/shared/strings.py:37
+msgid "Firefox Plugins"
+msgstr "Vstavki za Firefox"
+
+# Badge that user can display on their website.
+#: apps/shared/strings.py:40
+msgid "Android"
+msgstr "Android"
+
+# Badge that user can display on their website.
+#: apps/shared/strings.py:41
+msgid "Upgrade"
+msgstr "Nadgradnja"
+
+# Badge that user can display on their website.
+#: apps/shared/strings.py:42
+msgid "Download: Fast, Fun, Awesome"
+msgstr "Prenos: hiter, prima, kul"
+
+# Badge that user can display on their website.
+#: apps/shared/strings.py:43
+msgid "Work <span>for</span> Mozilla"
+msgstr "Delajte <span>za</span> Mozillo"
+
+# Badge that user can display on their website.
+#: apps/shared/strings.py:44
+msgid "Plugin Checker"
+msgstr "Kontrola vstavkov"
+
+#: apps/shared/strings.py:45
+msgid "Download Aurora"
+msgstr "Prenesite Auroro"
+
+#: apps/shared/strings.py:46
+msgid "Aurora <span>for</span> Android"
+msgstr "Aurora <span>za</span> Android"
+
+# Badge that user can display on their website.
+#: apps/shared/strings.py:47
+msgid "Download Beta"
+msgstr "Prenesi beta"
+
+# Badge that user can display on their website.
+#. L10n: 3.6 refers to Firefox version 3.6
+#: apps/shared/strings.py:49
+msgid "3.6 Upgrade"
+msgstr "Nadgradnja iz 3.6"
+
+#: apps/shared/strings.py:50
+msgid "Facebook Messenger for Firefox"
+msgstr ""
+
+#: apps/shared/strings.py:53
+msgid "Purple"
+msgstr "Škrlatno"
+
+# Color for badge images.
+#: apps/shared/strings.py:54
+msgid "Blue"
+msgstr "Modro"
+
+#: apps/shared/strings.py:55
+msgid "Green"
+msgstr "Zeleno"
+
+#: apps/shared/strings.py:56
+msgid "Red"
+msgstr "Rdeče"
+
+#: apps/shared/strings.py:57
+msgid "Orange"
+msgstr "Oranžno"
+
+#: apps/shared/strings.py:58
+msgid "Yellow"
+msgstr "Rumeno"
+
+#: apps/shared/strings.py:59
+msgid "White"
+msgstr "Belo"
+
+#: apps/shared/strings.py:60
+msgid "Black"
+msgstr "Črno"
+
+#: apps/shared/views.py:25
+msgid "The Firefox Affiliates program is a great way to share your love of Mozilla Firefox."
+msgstr "Program Zavezniki Firefoxa vam nudi možnost, deliti svoje veselje nad Firefoxom z drugimi."
+
+#: apps/shared/views.py:27
+msgid "There was an error during authentication. Please try again."
+msgstr "Med avtentikacijo je prišlo do napake! Prosimo, poskusite znova."
+
+#: apps/shared/views.py:29
+msgid "BrowserID could not verify your identity. Visit <a href=\"{url}\">browserid.org</a> for more information."
+msgstr "Z BrowserID vaše istovetnosti ni bilo mogoče preveriti. Obiščite <a href=\"{url}\">browserid.org</a> za več o tem."
+
+#: apps/shared/templates/shared/about.html:7 templates/layout/content_nav.html:18
+msgid "About Affiliates"
+msgstr "O Zaveznikih"
+
+#: apps/shared/templates/shared/about.html:11 apps/shared/templates/shared/faq.html:20 templates/base.html:13
+msgid ""
+"Firefox Affiliate buttons are a bit of html code that you put on your website or blog to encourage visitors to your site to download Firefox. When a visitor to your site clicks on a button on your "
+"site and visits the Firefox download page, you get credit for that click."
+msgstr ""
+"Gumbi Zaveznikov Firefoxa so koščki kode HTML, ki jih lahko dodate na svojo spletno stran ali v blog, s katerimi spodbudite svoje obiskovalce, da si prenesejo Firefox. Ko obiskovalec klikne gumb in "
+"obišče stran za prenos Firefoxa, boste dobili za ta prenos dobropis."
+
+#: apps/shared/templates/shared/about.html:22 apps/shared/templates/shared/faq.html:30
+msgid ""
+"Affiliates who get a lot of clicks through their site will be featured on our leaderboard and be elegible for fun stuff like Firefox T-shirts. While we do send out prizes and gifts to our "
+"affiliates from time to time, Firefox Affiliates does not offer monetary rewards for hosting Firefox buttons."
+msgstr ""
+"Zaveznike z veliko prenosov preko njihove spletne strani bomo predstavili na naši top listi in bodo imeli pravico do zabavne drobnarije, kot so Firefox majice. Od časa do časa pošiljamo nagrade, "
+"vendar Zavezniki Firefoxa za gostovanje gumbov ne nudijo denarnih nagrad."
+
+#: apps/shared/templates/shared/faq.html:14
+msgid "Using Affiliate Buttons"
+msgstr "Kako se uporablja zavezniške gumbe"
+
+#: apps/shared/templates/shared/faq.html:17
+msgid "How do affiliate buttons work?"
+msgstr "Kako gumbi za zaveznike delajo?"
+
+#: apps/shared/templates/shared/faq.html:44
+msgid "How do I add an affiliate button to my website?"
+msgstr "Kako dodam gumb na svojo spletno stran?"
+
+#: apps/shared/templates/shared/faq.html:47
+msgid ""
+"It's easy! Start at the button picker, select the Firefox product or campaign that you'd like to support, pick your button style, shape and color, then copy and paste the code into the html of your "
+"site. Your unique affiliate ID will be in that code, so that you get credit for every click you send our way."
+msgstr ""
+"Enostavno! Začnite z izbiro gumba in si izberite izdelek Firefox ali akcijo, ki bi jo radi podprli, izberite slog, obliko in barvo gumba, nato pa si kodo HTML skopirajte in prilepite na svojo "
+"spletno stran. Vaš ID pri Zaveznikih Firefoxa se bo nahajal v tej kodi, tako da boste za vsak klik dobili dobropis."
+
+#: apps/shared/templates/shared/faq.html:61
+msgid "How do I remove an affiliate button from my website?"
+msgstr "Kako odstranim gumb s svoje spletne strani?"
+
+#: apps/shared/templates/shared/faq.html:64
+msgid "This is also easy. Simply delete the code. If you want to put it back in again, just copy and paste it from the button picker."
+msgstr "Tudi to je enostavno. Kodo preprosto zbrišete. Če jo želite ponovno vstaviti, jo samo prekopirajte s pomočjo gumba za izbiro in prilepite nazaj."
+
+#: apps/shared/templates/shared/faq.html:75
+msgid "What happens when an affiliate button for a campaign is deactivated?"
+msgstr "Kaj se zgodi, kadar je zavezniški gumb za akcijo onemogočen?"
+
+#: apps/shared/templates/shared/faq.html:78
+msgid ""
+"Sometimes we run special time-limited campaigns to encourage people to download Firefox. If you're using an affiliate button for one of these campaigns, try to update your button as soon as you "
+"can. People who click on that button will be directed to a general Firefox download page. You'll get credit for the click as an affiliate, but you may not get credit for clicks for that specific "
+"campaign."
+msgstr ""
+"Od časa do časa imamo posebne časovno omejene akcije, ki spodbujajo ljudi, da si prenesejo Firefox. Če za eno od teh akcij uporabljate partnerski gumb, ga skušajte čim prej posodobiti. Kadar kdo "
+"klikne na ta gumb, bo preusmerjen na splošno stran za prenos Firefoxa. Dobropis boste dobili za klike kot zaveznik, vendar ne nujno za klike v okviru te posebne akcije."
+
+#: apps/shared/templates/shared/faq.html:97
+msgid "How often do leaderboard statistics update?"
+msgstr "Kako pogosto se top listo posodablja?"
+
+#: apps/shared/templates/shared/faq.html:100
+msgid "Leaderboard statistics update every night at midnight PT. No need to keep hitting refresh over and over again to see how you're doing. Just check in the next day to see your progress."
+msgstr ""
+"Top listo se posodobi vsako noč o polnoči po pacifiškem času. Da znova in znova pritiskate na Obnovi, da bi videli, kako vam gre, tako nima smisla. Počakajte do naslednjega jutra, da vidite, kje "
+"ste."
+
+#: apps/shared/templates/shared/faq.html:115
+msgid ""
+"From time to time we will be sending out T-shirts and other prizes. In future versions of Affiliates we will have a rewards program and more opportunities to participate in affiliate challenges."
+msgstr "Od časa do časa bomo pošiljali T-majice in druge nagrade. V prihodnjih različicah programa Zavezniki bomo imeli plan nagrajevanja in več priložnosti, kako lahko sodelujete."
+
+#. email is the affiliates contact email address.
+#: apps/shared/templates/shared/faq.html:131
+msgid "If you think there is an error with your click statistics, drop us a note at <a href=\"mailto:%(email)s\">%(email)s</a> and we'll do our best to help you out."
+msgstr "Če menite, da je v vaši statistiki klikov napaka, nas o tem obvestite na naslov<a href=\"mailto:%(email)s\">%(email)s</a> , mi pa se bomo potrudili, da vam pomagamo problem rešiti."
+
+#: apps/shared/templates/shared/faq.html:142
+msgid "My Profile"
+msgstr "Moj profil"
+
+#: apps/shared/templates/shared/faq.html:145
+msgid "How do I update my personal profile information?"
+msgstr "Kako posodobim osebne podatke v svojem profilu?"
+
+#: apps/shared/templates/shared/faq.html:148
+msgid "Moved? Changed your name? Just click on the edit profile button in the upper right corner of the site."
+msgstr "Ste se preselili? Spremenili ime? Kliknite na gumb za urejanje profila v zgornjem desnem kotu spletne strani."
+
+#: apps/shared/templates/shared/faq.html:158
+msgid "Why should I share my mailing address with Firefox Affiliates?"
+msgstr "Zakaj naj bi dal svoj poštni naslov, na razpolago Zaveznikom Firefoxa?"
+
+#: apps/shared/templates/shared/faq.html:161
+msgid ""
+"While you have our deepest gratitude for spreading the word about Firefox every day, from time to time we like to thank our amazing Affiliates community with things like Firefox T-shirts &mdash; if "
+"we have your address on file, that is."
+msgstr ""
+"Globoko smo vam hvaležni, da dan na dan širite Firefox med svojimi stiki, od časa do časa pa bi se radi zahvalili našim neverjetnim Zaveznikom Firefoxa z drobnim darom, kot so Firefox T-majice - "
+"seveda le, če imamo na razpolago vaš naslov."
+
+#: apps/shared/templates/shared/faq.html:173
+msgid "Getting Involved With Firefox Affiliates"
+msgstr "Kako se lahko pridružite Zaveznikom Firefoxa"
+
+#: apps/shared/templates/shared/faq.html:176
+msgid "I have an idea of a button. How can I share it?"
+msgstr "Imam idejo za gumb. Kako jo lahko pokažem drugim?"
+
+#: apps/shared/templates/shared/faq.html:179
+msgid ""
+"Mozilla and Firefox are all about community. If you have an idea, we want to hear it. Send us a note at <a href=\"mailto:%(email)s\">%(email)s</a> and tell us your amazing idea for the program."
+msgstr ""
+"Pri Mozilli in Firefoxu igra skupnost osrednjo vlogo. Če imate kakšno idejo, naj jo prosim sporočite. Pošljite nam na naslov <a href=\"mailto:%(email)s\">%(email)s</a> pošto, v kateri nam opišete "
+"svojo prima idejo za program."
+
+#: apps/shared/templates/shared/faq.html:191
+msgid "Can I build my own button?"
+msgstr "Ali lahko ustvarim svojo lasten gumb?"
+
+#: apps/shared/templates/shared/faq.html:194
+msgid "Not yet... but soon. We're working on a way to make it easy for people to create their own Firefox buttons in their language. Look for this in future versions of Firefox Affiliates."
+msgstr "Še ne ... vendar kmalu. Delamo na tem, da sodelujočim omogočili, ustvarjati svoje lastne gumbe za Firefox v svojem jeziku. Pričakujte to novo potezo v bodočih različicah Zaveznikov Firefoxa."
+
+#: apps/shared/templates/shared/faq.html:206
+msgid "I want to help make Firefox Affiliates better. How can I get involved?"
+msgstr "Rad bi pomagal izboljšati Zaveznike Firefoxa. Kako lahko začnem sodelovati?"
+
+#: apps/shared/templates/shared/faq.html:209
+msgid "If you'd like to help out with the Affiliates program, contact us at <a href=\"mailto:%(email)s\">%(email)s</a>. We'd love your help!"
+msgstr "Če želite pomagati pri projektu, nam pišite na <a href=\"mailto:%(email)s\">%(email)s</a>. Vaša pomoč nam bo zelo dobrodošla!"
+
+#: apps/shared/templates/shared/home/base.html:11
+msgid "Become a Firefox <span>Affiliate Today!</span>"
+msgstr "Postanite <span>zaveznik Firefoxa!</span>"
+
+#. Link is for JavaScript popup when the mouse hovers over.
+#: apps/shared/templates/shared/home/base.html:14
+msgid ""
+"The Firefox Affiliates program is a great way to share your love of Firefox and other Mozilla products. Host buttons on your site and climb your way to fame on the leaderboard. <a href=\"#\" class="
+"\"show_tooltip\" target=\"tooltip_home\">Learn more &raquo;</a>"
+msgstr ""
+"Program Zavezniki Firefoxa vam nudi možnost deliti svoje veselje nad Firefoxom in Mozillo z drugimi. Gostujte na svoji strani gumbe in začnite plezati po lestvici. <a href=\"#\" class=\"show_tooltip"
+"\" target=\"tooltip_home\">Več o tem &raquo;</a>"
+
+#: apps/shared/templates/shared/home/base.html:24
+msgid ""
+"Firefox Affiliates is the go-to place for Firefox fans and Mozillians to get promotional buttons and links that encourage users to download Firefox. We do send out prizes and gifts to our "
+"affiliates from time to time, but Firefox Affiliates does not offer monetary rewards for hosting Firefox buttons. That warm, fuzzy feeling in your heart will have to do."
+msgstr ""
+"Zavezniki Firefoxa je naslov za ljubitelje Firefoxa in za Moziljane, s promocijskimi gumbi in povezavami, ki spodbujajo uporabnike, da si prenesejo Firefox. Od časa do časa pošiljamo sodelujočim "
+"nagrade in darila, vendar Zavezniki Firefoxa gostiteljem gumbov ne nudijo denarne nagrade. Topli, prijetni občutek v vašem srcu bo moral zadostovati."
+
+#: apps/shared/templates/shared/home/base.html:32
+msgid "Sign up and become an affiliate today!"
+msgstr "Prijavite se in postanite še danes zaveznik!"
+
+#: apps/shared/templates/shared/home/base.html:43 apps/shared/templates/shared/home/browserid.html:47
+msgid "Share on Twitter &raquo;"
+msgstr "Objavi na Twitterju &raquo;"
+
+#: apps/shared/templates/shared/home/base.html:48 apps/shared/templates/shared/home/browserid.html:52
+msgid "Share on Facebook &raquo;"
+msgstr "Objavi na Facebooku &raquo;"
+
+#: apps/shared/templates/shared/home/browserid.html:27
+msgid "Sign in with Persona"
+msgstr ""
+
+#: apps/shared/templates/shared/home/browserid.html:31
+msgid "Sign in"
+msgstr ""
+
+#: apps/shared/templates/shared/home/normal.html:7
+msgid "Don't have an account?"
+msgstr "Še nimate računa?"
+
+#: apps/shared/templates/shared/home/normal.html:9
+msgid "Want to be a Firefox Affiliate?"
+msgstr "Želite postati zaveznik Firefoxa?"
+
+#: apps/shared/templates/shared/home/normal.html:11
+msgid "Sign up now and start spreading the word."
+msgstr "Prijavite se zdaj in začnite širiti dober glas."
+
+#: apps/shared/templates/shared/include/sidebar/fb_promo.html:3
+#, fuzzy
+msgid "Firefox Affiliates on Facebook"
+msgstr "Zavezniki Firefoxa"
+
+#: apps/shared/templates/shared/include/sidebar/fb_promo.html:6
+msgid "Firefox Affiliates is now on Facebook. Install the Firefox Affiliates Facebook app, link your account and you can earn clicks towards your Affiliates total."
+msgstr ""
+
+#: apps/shared/templates/shared/include/sidebar/fb_promo.html:14
+msgid "Click here to connect your Affiliates account with Facebook."
+msgstr ""
+
+#: apps/shared/templates/shared/include/sidebar/newsletter_subscribe.html:3
+#, fuzzy
+msgid "Get Firefox Affiliates News"
+msgstr "Ekipa Zaveznikov Firefoxa"
+
+#: apps/users/forms.py:19
+msgid "Please enter a password."
+msgstr "Vnesite prosim geslo."
+
+#: apps/users/forms.py:20
+msgid "Passwords must match."
+msgstr "Gesli se morata ujemati."
+
+#: apps/users/forms.py:21
+msgid "Passwords must be at least 8 characters long."
+msgstr "Geslo mora imeti najmanj 8 znakov."
+
+#: apps/users/forms.py:22
+msgid "Passwords must contain at least 1 letter and 1 number."
+msgstr "Gesla morajo vsebovati vsaj 1 črko in 1 številko."
+
+#: apps/users/forms.py:24
+msgid "We are having trouble reaching your email address. Please try a different address or contact an administrator."
+msgstr "Težave imamo s pošto na vaš e-naslov. Poskusite prosim z drugim naslovom ali pa se obrnite na skrbnika."
+
+#: apps/users/forms.py:27
+msgid "Please enter an email address."
+msgstr "Vnesite prosim e-poštni naslov."
+
+#: apps/users/forms.py:29
+msgid "A user with that email address already exists."
+msgstr "Uporabnik s to e-naslovom že obstaja."
+
+#: apps/users/forms.py:30
+msgid "Email or password incorrect."
+msgstr "E-naslov ali geslo napačna."
+
+#: apps/users/forms.py:31
+msgid "This account is inactive."
+msgstr "Ta račun je neaktiven."
+
+#. L10n: A display name is the name that other users on the site see for you.
+#: apps/users/forms.py:33
+msgid "Please enter a display name."
+msgstr "Vnesite prosim prikazno ime."
+
+#: apps/users/forms.py:34
+msgid "You must agree to the terms of service and privacy policy to register."
+msgstr "Da se lahko registrirate, se morate strinjati z pogoji storitve in pravili zasebnosti."
+
+#: apps/users/forms.py:51 apps/users/forms.py:82 apps/users/templates/users/include/login_form.html:12
+msgid "Password"
+msgstr "Geslo"
+
+#: apps/users/forms.py:81 apps/users/templates/users/include/login_form.html:10
+msgid "Email address"
+msgstr "E-naslov"
+
+#: apps/users/forms.py:103
+msgid "New Password"
+msgstr "Novo geslo"
+
+#: apps/users/forms.py:104
+msgid "Retype Password"
+msgstr "Vtipkajte znova geslo"
+
+#: apps/users/forms.py:111 apps/users/models.py:73 apps/users/templates/users/activate.html:17 apps/users/templates/users/include/edit_profile_form.html:58
+msgid "Full Name"
+msgstr "Polno ime"
+
+#: apps/users/forms.py:112 apps/users/templates/users/include/edit_profile_form.html:64
+msgid "Street"
+msgstr "Ulica"
+
+#: apps/users/forms.py:113 apps/users/templates/users/include/edit_profile_form.html:68
+msgid "Apartment or Unit # (optional)"
+msgstr "Stanovanje ali št enote # (neobvezno)"
+
+#: apps/users/forms.py:114 apps/users/models.py:82 apps/users/templates/users/include/edit_profile_form.html:72
+msgid "City"
+msgstr "Mesto"
+
+#: apps/users/forms.py:115 apps/users/models.py:84 apps/users/templates/users/include/edit_profile_form.html:76
+msgid "State or Province"
+msgstr "Država ali okraj"
+
+#: apps/users/forms.py:116 apps/users/models.py:86 apps/users/templates/users/include/edit_profile_form.html:80
+msgid "Zip or Postal Code"
+msgstr "Poštna številka"
+
+#: apps/users/forms.py:169 apps/users/templates/users/include/register_form.html:17
+msgid "Your password"
+msgstr "Vaše geslo"
+
+#: apps/users/forms.py:176
+msgid "This email is already taken! Please try again."
+msgstr "Ta e-naslov je že zavzet! Poizkusite znova."
+
+#: apps/users/models.py:30
+msgid "Please activate your Firefox Affiliates account"
+msgstr "Aktivirajte prosim svoj račun za Zaveznike Firefoxa"
+
+#: apps/users/models.py:75
+msgid "Display name"
+msgstr "Prikazno ime"
+
+#: apps/users/models.py:78
+msgid "Address Line 1"
+msgstr "Naslov vrstica 1"
+
+#: apps/users/models.py:80
+msgid "Address Line 2"
+msgstr "Naslov vrstica 2"
+
+#: apps/users/models.py:88 apps/users/templates/users/include/edit_profile_form.html:84
+msgid "Country"
+msgstr "Država"
+
+#: apps/users/views.py:28
+msgid "Your profile was updated successfully!"
+msgstr "Vaš profil je uspešno posodobljen!"
+
+#: apps/users/templates/users/activate.html:12
+msgid "Please complete your user profile"
+msgstr "Dopolnite prosim svoj profil"
+
+#: apps/users/templates/users/activate.html:21
+msgid "Email"
+msgstr "E-pošta"
+
+#: apps/users/templates/users/activate_done.html:9
+msgid "Email verified"
+msgstr "E-naslov preverjen"
+
+#. href is a link to the site's homepage.
+#: apps/users/templates/users/activate_done.html:12
+msgid "Your email address has been verified. You may now <a href=\"%(href)s\">log in from the homepage</a>."
+msgstr "Vaš e-poštni naslov se je preverilo. Sedaj se lahko prijavite na <a href=\"%(href)s\">domačo stran</a>."
+
+#: apps/users/templates/users/activate_done.html:18
+msgid "Activation failed"
+msgstr "Aktiviranje ni uspelo"
+
+#: apps/users/templates/users/activate_done.html:20
+msgid "We could not activate your account. Please make sure that you have clicked the correct link in your email or typed in the correct address."
+msgstr "Vašega računa nismo mogli aktivirati. Preverite prosim, ali ste kliknili na pravilno povezavo v vaši pošti in ali ste vnesli v pravilen naslov."
+
+#: apps/users/templates/users/edit_profile.html:9
+msgid "Edit your user profile"
+msgstr "Uredite svoj profil"
+
+#: apps/users/templates/users/register_done.html:8
+msgid "Thanks for joining <span>Firefox Affiliates!</span>"
+msgstr "Hvala vam, ker ste se pridružili <span>Zaveznikom Firefoxa!</span>"
+
+#: apps/users/templates/users/register_done.html:9
+msgid "We've just sent an activation email to: <span>%(email)s <a href=\"%(homepage)s\">(Change)</a></span>"
+msgstr "Ravnokar smo na naslov: <span>%(email)s <a href=\"%(homepage)s\">(Sprememba)</a></span> poslali e-pošto za aktivacijo"
+
+#: apps/users/templates/users/register_done.html:12
+msgid "Please click on the link provided in the email to verify that your email is valid."
+msgstr "Kliknite na povezavo v e-pošti, da se prepričamo, da je vaš e-poštni naslov veljaven."
+
+#: apps/users/templates/users/email/activation_email.html:1
+msgid "Welcome to Firefox Affiliates."
+msgstr "Dobrodošli pri Zaveznikih Firefoxa."
+
+#: apps/users/templates/users/email/activation_email.html:3
+msgid ""
+"Before you can use your new account you must activate it -- this ensures the email address you used is valid and belongs to you. To activate your account, click the link below or copy and paste the "
+"whole thing into your browser's location bar:"
+msgstr ""
+"Preden lahko uporabite svoj novi račun, ga morate aktivirati - tako potrdite da vneseni e-poštni naslov resnično pripada vam. Da aktivirate svoj račun, kliknite na povezavo spodaj, ali pa kopirajte "
+"in prilepite vse skupaj v naslovno vrstico v svojem brskalniku:"
+
+#: apps/users/templates/users/email/activation_email.html:12
+msgid "Once you've successfully activated your account, you can throw away this email."
+msgstr "Potem ko uspešno aktivirate svoj račun, lahko to pošto zavržete."
+
+#: apps/users/templates/users/email/pw_reset.html:1
+msgid "Firefox Affiliates Password Reset"
+msgstr "Ponastavitev gesla za Zaveznike Firefoxa"
+
+#: apps/users/templates/users/email/pw_reset.html:3
+msgid "A request was received to reset the password for this account on Firefox Affiliates. To change this password please click on the following link, or paste it into your browser's location bar:"
+msgstr ""
+"Prejeli smo zahtevo, da se za ta račun pri Zaveznikih Firefoxa ponastavi geslo. Da spremenite geslo, kliknite na spodnjo povezavo, ali pa je prekopirajte v naslovno vrstico v svojem brskalniku:"
+
+#: apps/users/templates/users/email/pw_reset.html:12
+msgid "If you did not request this email there is no need for further action."
+msgstr "Če te pošte niste zahtevali, vam ni treba ukrepati."
+
+#. Tells the user that required fields have a * next to them.
+#: apps/users/templates/users/include/activation_form.html:8
+msgid "<span>*</span> Required"
+msgstr "<span>*</span> Obvezno"
+
+#. The span and star are left in in case your language would put the required
+#.       star on the left side.
+#: apps/users/templates/users/include/activation_form.html:14
+msgid "USERNAME <span class=\"required_star\">*</span>"
+msgstr "UPORABNIŠKO IME <span class=\"required_star\">*</span>"
+
+#: apps/users/templates/users/include/activation_form.html:15
+msgid "Your username is your online identity, so use somenthing you are comfortable with everyone seeing. Take into account that you won't be able to change your username in the future."
+msgstr "Vaše uporabniško ime je vaša spletna identiteta, zato vnesite naziv, ki je primeren za javnost. Upoštevajte, da v bodoče svojega uporabniškega imena ne boste mogli spremeniti."
+
+#. Refers to suggested usernames if the user's desired username is taken.
+#: apps/users/templates/users/include/activation_form.html:28
+msgid "SUGGESTIONS"
+msgstr "PREDLOGI"
+
+# 75%
+#. Used in context of saving changes to a profile.
+#: apps/users/templates/users/include/activation_form.html:54
+msgid "Save &raquo;"
+msgstr "Shrani &raquo;"
+
+#: apps/users/templates/users/include/edit_profile_form.html:8
+msgid "DISPLAY NAME"
+msgstr "PRIKAZNO IME"
+
+#: apps/users/templates/users/include/edit_profile_form.html:14
+msgid "Website URL"
+msgstr ""
+
+#: apps/users/templates/users/include/edit_profile_form.html:15
+msgid "This website will appear along with your username on the Affiliates leaderboard and on your profile."
+msgstr ""
+
+#: apps/users/templates/users/include/edit_profile_form.html:28 apps/users/templates/users/password_reset/confirm.html:11
+msgid "NEW PASSWORD"
+msgstr "NOVO GESLO"
+
+#: apps/users/templates/users/include/edit_profile_form.html:33
+msgid "RETYPE PASSWORD"
+msgstr "VTIPKAJTE PONOVNO GESLO"
+
+#: apps/users/templates/users/include/edit_profile_form.html:37
+msgid "8 or more characters, include Latin letters and numbers. Note: No one else can see your password."
+msgstr "8 ali več znakov, ki vključujejo latinske črke in številke. Opomba: Nihče drug ne more videti vašega gesla."
+
+#: apps/users/templates/users/include/edit_profile_form.html:46 apps/users/templates/users/include/profile_form.html:9
+msgid "ADDRESS"
+msgstr "NASLOV"
+
+#: apps/users/templates/users/include/edit_profile_form.html:47 apps/users/templates/users/include/profile_form.html:10
+msgid ""
+"Why should I provide my mailing address? <br/><br/> From time to time, we may send you Mozilla T-shirts or other cool stuff in the mail. If you'd like to get stuff from us, please share your "
+"mailing address, but it's not mandatory to be part of the Firefox Affiliates program."
+msgstr ""
+"Zakaj moramo navesti svoj poštni naslov? <br/><br/> Od časa do časa vam bomo lahko da poslali Mozilla T-majice in druge kul stvari na navedeni naslov. Če želite dobivati pošiljke od nas , vas "
+"prosimo, da navedete svoj poštni naslov, vendar to ni pogoj za sodelovanje pri Zaveznikih Firefoxa."
+
+#. Used in context of saving changes to a profile.
+#: apps/users/templates/users/include/edit_profile_form.html:93
+msgid "Save my changes &raquo;"
+msgstr "Shrani more spremembe &raquo;"
+
+#: apps/users/templates/users/include/edit_profile_form.html:95
+msgid "Cancel &raquo;"
+msgstr "Prekliči &raquo;"
+
+#: apps/users/templates/users/include/login_form.html:14
+msgid "Log in &raquo;"
+msgstr "Prijava &raquo;"
+
+#: apps/users/templates/users/include/login_form.html:16
+msgid "Remember me"
+msgstr "Zapomni si me"
+
+#: apps/users/templates/users/include/login_form.html:17
+msgid "Forgot your password?"
+msgstr "Ste pozabili svoje geslo?"
+
+#: apps/users/templates/users/include/profile_form.html:35
+msgid "LANGUAGE"
+msgstr "JEZIK"
+
+#: apps/users/templates/users/include/profile_form.html:36
+msgid "Your country and language were automatically detected by your IP location, but you are welcome to change them here."
+msgstr "Vašo državo in jezik smo samodejno ugotovili na osnovi IP lokacijo, vendar pa ju lahko tu spremenite."
+
+#: apps/users/templates/users/include/profile_form.html:46
+msgid "COUNTRY"
+msgstr "DRŽAVA"
+
+#: apps/users/templates/users/include/profile_form.html:55
+msgid "I wish to receive information and notifications about Firefox and Mozilla via email."
+msgstr "Želim prek e-pošte prejemati informacije in obvestila o Firefoxu in o Mozilli."
+
+#. {{ tos }} links to the terms of service, {{ privacy_policy }} links to Mozilla privacy policy.
+#: apps/users/templates/users/include/register_form.html:24
+msgid "I agree to the Firefox Affiliates <a href=\"%(tos)s\">terms of service</a> and Mozilla <a href=\"%(privacy_policy)s\">Privacy Policy</a>"
+msgstr "S <a href=\"%(tos)s\">pogoji storitve</a> in <a href=\"%(privacy_policy)s\">Politiko o zasebnosti</a> Mozille pri Zaveznikih Firefoxa se strinjam"
+
+#: apps/users/templates/users/include/register_form.html:41
+msgid "Register &raquo;"
+msgstr "Registracija &raquo;"
+
+#: apps/users/templates/users/password_reset/complete.html:4
+msgid "Password reset successful!"
+msgstr "Geslo uspešno ponastavljeno!"
+
+#: apps/users/templates/users/password_reset/complete.html:6
+msgid "You have successfully changed your password. <a href=\"%(href)s\">Return to the home page and log in using your new password</a>."
+msgstr "Uspešno ste spremenili svoje geslo. <a href=\"%(href)s\">Vrnite se na domačo stran in se prijavite z novim geslom</a>."
+
+#: apps/users/templates/users/password_reset/confirm.html:5 apps/users/templates/users/password_reset/send_complete.html:4
+msgid "Password Reset"
+msgstr "Ponastavitev gesla"
+
+#: apps/users/templates/users/password_reset/confirm.html:15
+msgid "CONFIRM PASSWORD"
+msgstr "POTRDITE GESLO"
+
+#: apps/users/templates/users/password_reset/confirm.html:19
+msgid "Reset password &raquo;"
+msgstr "Ponastavi geslo &raquo;"
+
+#: apps/users/templates/users/password_reset/confirm.html:23
+msgid "Password reset unsuccessful"
+msgstr "Ponastavitev gesla neuspešna"
+
+#: apps/users/templates/users/password_reset/confirm.html:25
+msgid "The password reset link was invalid, possibly because it has already been used. <a href=\"%(href)s\">Please request a new password reset.</a>"
+msgstr "Veza za ponastavitev gesla je bila neveljavna, morda zato, ker se jo je že uporabilo. <a href=\"%(href)s\">Zahtevajte prosim ponovno ponastavitev gesla.</a>"
+
+#: apps/users/templates/users/password_reset/send_complete.html:6
+msgid "We've sent an email to any account using this email address. Please follow the link in the email to reset your password."
+msgstr "Pošto smo poslali na račun s tem naslovom. Sledite prosim povezavi v pošti, da ponastavite svoje geslo."
+
+#: apps/users/templates/users/password_reset/send_form.html:4
+msgid "Forgot password on Firefox Affiliates!"
+msgstr "Pozabil geslo za Zaveznike Firefoxa!"
+
+#: apps/users/templates/users/password_reset/send_form.html:5
+msgid "Please enter your e-mail and we'll reset your password:"
+msgstr "Vnesite svojo e-pošto, da bomo vaše geslo ponastavili:"
+
+#: apps/users/templates/users/password_reset/send_form.html:10
+msgid "Send &raquo;"
+msgstr "Pošlji &raquo;"
+
+#: apps/users/templates/users/password_reset/send_form.html:14
+msgid "Please click on the link provided in the e-mail to access your Affiliates account."
+msgstr "Kliknite na povezavo iz e-pošte za dostop do svojega računa pri Zaveznikih Firefoxa."
+
+#. 'Deal you in' refers to dealing cards; it's an offer to join a card game.
+#: templates/404.html:17
+msgid "Did you make a left at that last URL instead of a right? No problem. Unless you want us to deal you in, here are some tips to get you back on your way:"
+msgstr "Zavili na levo na zadnjem URL namesto desno, kajne? Ni problema. Razen če ne želite, da iščemo naprej, nekaj nasvetov, kako se vrnete na pravo pot:"
+
+#: templates/404.html:39
+msgid "If you’re not sure what you’re looking for, start at <a href=\"%(href)s\">mozilla.org</a>."
+msgstr "Če ne veste, kod in kam, začnite znova pri <a href=\"%(href)s\">mozilla.org</a>."
+
+#: templates/500.html:12
+msgid "An Error Occurred"
+msgstr "Prišlo je do napake"
+
+#: templates/500.html:14
+msgid "Oh, no! It looks like an unexpected error occurred. We've already notified the site administrators. Please try again now, or in a few minutes."
+msgstr "Oh, ne! Zgleda je prišlo do nepričakovane napake. Administratorje smo že obvestili. Poskusite prosim znova zdaj, ali čez nekaj minut."
+
+#. You can use this string to put custom CSS rules to fix any design issues. Leave empty or untranslated if you do not need it.
+#: templates/base.html:26 templates/base.html:29
+msgid "custom-css"
+msgstr "custom-css"
+
+#: templates/base.html:44
+msgid "Firefox<span>Affiliates</span>"
+msgstr "<span>Zavezniki</span> Firefoxa"
+
+#: templates/base.html:46
+msgid "Everything you need to share Firefox with the world."
+msgstr "Vse, kar potrebujete, da si Firefox delite s svetom."
+
+#: templates/global/footer.html:4
+msgid "Let’s be <span>friends!</span>"
+msgstr "Bodimo <span>eno!</span>"
+
+#: templates/global/footer.html:7
+msgid "Twitter"
+msgstr "Twitter"
+
+#: templates/global/footer.html:10
+msgid "Facebook"
+msgstr "Facebook"
+
+#: templates/global/footer.html:13
+msgid "More Ways to Connect"
+msgstr "In še drugi stiki"
+
+#: templates/global/footer.html:18
+msgid "Want us to keep in touch?"
+msgstr "Želite ostati v stiku?"
+
+#: templates/global/footer.html:19
+msgid "Get Monthly News <span>»</span>"
+msgstr "Mesečne novice <span>»</span>"
+
+#: templates/global/footer.html:33 templates/global/header.html:4
+msgid "Back to home page"
+msgstr "Nazaj na domačo stran"
+
+#: templates/global/footer.html:40
+msgid "Desktop"
+msgstr "Namizni računalnik"
+
+#: templates/global/footer.html:42 templates/global/footer.html:57 templates/global/header.html:13 templates/global/header.html:28
+msgid "Features"
+msgstr "Funkcije"
+
+#: templates/global/footer.html:43 templates/global/header.html:14
+msgid "Security"
+msgstr "Varnost"
+
+#: templates/global/footer.html:44 templates/global/header.html:15
+msgid "Performance"
+msgstr "Zmogljivost"
+
+#: templates/global/footer.html:45 templates/global/header.html:16
+msgid "Customization"
+msgstr "Prilagajanje"
+
+#: templates/global/footer.html:46 templates/global/header.html:17
+msgid "Technology"
+msgstr "Tehnologija"
+
+#: templates/global/footer.html:47 templates/global/header.html:18
+msgid "Videos"
+msgstr "Video posnetki"
+
+#: templates/global/footer.html:48 templates/global/header.html:19
+msgid "Tour"
+msgstr "Obhod"
+
+#: templates/global/footer.html:53 templates/global/header.html:24
+msgid "Mobile"
+msgstr "Mobilna naprava"
+
+#: templates/global/footer.html:55 templates/global/header.html:26
+msgid "Mobile Overview"
+msgstr "Pregled mobilnih naprav"
+
+# Badge that user can display on their website.
+#: templates/global/footer.html:56 templates/global/header.html:27
+msgid "Download"
+msgstr "Prenesi"
+
+#: templates/global/footer.html:58 templates/global/header.html:29
+msgid "Customize"
+msgstr "Prilagodi"
+
+#: templates/global/footer.html:59 templates/global/header.html:30
+msgid "Sync"
+msgstr "Sync"
+
+#: templates/global/footer.html:60 templates/global/header.html:31
+msgid "Develop"
+msgstr "Razvij"
+
+#: templates/global/footer.html:61 templates/global/header.html:32
+msgid "Get Involved"
+msgstr "Pridružite se"
+
+# 75%
+#: templates/global/footer.html:62 templates/global/header.html:33 templates/layout/content_nav.html:13
+msgid "FAQ"
+msgstr "Pogosta vprašanja"
+
+#: templates/global/footer.html:63 templates/global/footer.html:103 templates/global/header.html:34 templates/global/header.html:74
+msgid "Blog"
+msgstr "Blog"
+
+#: templates/global/footer.html:68 templates/global/header.html:39
+msgid "Add-ons"
+msgstr "Dodatki in teme"
+
+#: templates/global/footer.html:70 templates/global/header.html:41
+msgid "Firefox Add-ons"
+msgstr "Dodatki Firefox"
+
+#: templates/global/footer.html:71 templates/global/header.html:42
+msgid "Featured Add-ons"
+msgstr "Predstavljeni dodatki"
+
+#: templates/global/footer.html:72 templates/global/header.html:43
+msgid "Extensions"
+msgstr "Dodatki"
+
+#: templates/global/footer.html:73 templates/global/header.html:44
+msgid "Themes"
+msgstr "Teme"
+
+#: templates/global/footer.html:74 templates/global/header.html:45
+msgid "Personas"
+msgstr "Persone"
+
+#: templates/global/footer.html:75 templates/global/header.html:46
+msgid "Search Tools"
+msgstr "Orodja za iskanje"
+
+#: templates/global/footer.html:76 templates/global/header.html:47
+msgid "Language Support"
+msgstr "Jezikovna podpora"
+
+#: templates/global/footer.html:77 templates/global/header.html:48
+msgid "Collections"
+msgstr "Zbirke"
+
+#: templates/global/footer.html:78 templates/global/header.html:49
+msgid "Mobile Add-ons"
+msgstr "Dodatki za mobilne naprave"
+
+#: templates/global/footer.html:79 templates/global/header.html:50
+msgid "Developer Hub"
+msgstr "Razvojni center"
+
+#: templates/global/footer.html:84 templates/global/header.html:55
+msgid "Support"
+msgstr "Podpora"
+
+#: templates/global/footer.html:86 templates/global/header.html:57
+msgid "Firefox Support"
+msgstr "Podpora za Firefox"
+
+#: templates/global/footer.html:87 templates/global/header.html:58
+msgid "Mobile Support"
+msgstr "Podpora za mobilnike"
+
+#: templates/global/footer.html:88 templates/global/header.html:59
+msgid "Thunderbird Support"
+msgstr "Podpora za Thunderbird"
+
+#: templates/global/footer.html:93 templates/global/header.html:64
+msgid "About"
+msgstr "Vizitka"
+
+#: templates/global/footer.html:95 templates/global/header.html:66
+msgid "About Firefox"
+msgstr "O Firefox"
+
+#: templates/global/footer.html:96 templates/global/header.html:67
+msgid "Join Mozilla"
+msgstr "Pridružite se Mozilli"
+
+#: templates/global/footer.html:97 templates/global/header.html:68
+msgid "Participate"
+msgstr "Sodelujte"
+
+#: templates/global/footer.html:98 templates/global/header.html:69
+msgid "Press Center"
+msgstr "Center za tisk"
+
+#: templates/global/footer.html:99 templates/global/header.html:70
+msgid "Careers"
+msgstr "Zaposlitev"
+
+#: templates/global/footer.html:100 templates/global/header.html:71
+msgid "Partnerships"
+msgstr "Zavezništva"
+
+#: templates/global/footer.html:101 templates/global/header.html:72
+msgid "Legal"
+msgstr "Pravno"
+
+#: templates/global/footer.html:102 templates/global/header.html:73
+msgid "Contact Us"
+msgstr "Stopite v stik z nami"
+
+#: templates/global/footer.html:113
+msgid "Privacy Policy"
+msgstr "Izjava o zasebnosti"
+
+#: templates/global/footer.html:114
+msgid "Legal Notices"
+msgstr "Pravna obvestila"
+
+#: templates/global/footer.html:116
+msgid "Report Trademark Abuse"
+msgstr "Poročilo o zlorabi trgovske znamke"
+
+#: templates/global/footer.html:120
+msgid ""
+"Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this site is licensed under the <br/> <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> or "
+"any later version."
+msgstr ""
+"Razen če ni drugače <a href=\"%(legal_url)s\">navedeno</a>, so vsebine na tej strani pod licenco <br/> <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> ali pod "
+"eno kasnejših različic."
+
+#: templates/layout/banners_nav.html:4
+msgid "VIEW CURRENT BANNERS"
+msgstr "PRIKAŽI TRENUTNE PASICE"
+
+#: templates/layout/content_nav.html:5
+msgid "MY BANNERS"
+msgstr "MOJE PASICE"
+
+#: templates/layout/content_nav.html:7
+msgid "GET STARTED"
+msgstr "PA ZAČNIMO"
+
+#: templates/layout/sidebar_nav.html:2
+msgid "LOG OUT"
+msgstr "ODJAVA"
+
+#: templates/layout/sidebar_nav.html:6
+msgid "EDIT PROFILE"
+msgstr "UREDI PROFIL"
+
+#~ msgid "New"
+#~ msgstr "Novo"
+
+#~ msgid "BrowserID is here!"
+#~ msgstr "BrowserID je tu!"
+
+#~ msgid ""
+#~ "Firefox Affiliates has switched to <a href=\"%(browserid_url)s\">BrowserID</a>. If you previously had an account, use the login button below and sign up for BrowserID with the same email address "
+#~ "you used for signing up with Firefox Affiliates."
+#~ msgstr ""
+#~ "Zavezniki Firefoxa sedaj uporablja <a href=\"%(browserid_url)s\"> BrowserID</a>. Če ste prej imeli račun, uporabite spodnji gumb in se prijavite za BrowserID z istim e-poštnim naslovom, s "
+#~ "katerim ste se prijavljali na Firefox Affiliates."
+
+#~ msgid "Log In &raquo;"
+#~ msgstr "Prijava &raquo;"
+
+#~ msgid "Want to be a Firefox Affiliate? Sign up using BrowserID by clicking the registration button below."
+#~ msgstr "Hočete postati Zveznik Firefoxa? Kliknite spodaj na gumb za registracijo in se prijavite s pomočjo BrowserID."
+
+#, fuzzy
+#~ msgid "Download Firefox or Firefox for Android today."
+#~ msgstr "Razširite glas o Firefoxu za Android"
+
+#, fuzzy
+#~ msgid "Whoops! What are you doing here?"
+#~ msgstr "Kako pa ste zašli sem?"
+
+#, fuzzy
+#~ msgid "Leaderboard and user statistics"
+#~ msgstr "Top lista in uporabniška statistika"
+
+#, fuzzy
+#~ msgid "Is there a prize for getting the most clicks?"
+#~ msgstr "Ali dobim nagrado, če sem na prvem mestu po številu klikov?"
+
+#, fuzzy
+#~ msgid "Your Email Address"
+#~ msgstr "Vaš e-poštni naslov"
+
+#~ msgid "Create a New Banner &raquo;"
+#~ msgstr "Ustvarite novo pasico &raquo;"
+
+#, fuzzy
+#~ msgid "The Firefox Affiliates Team"
+#~ msgstr "Ekipa Zaveznikov Firefoxa"
+
+#, fuzzy
+#~ msgid "If you followed a link, it's probably broken. Please contact us and we'll fix it."
+#~ msgstr "Če ste sledili povezavi, gre verjetno za polomljen naslov. Prosim <a href=\"mailto:%(email)s\">pišite nam</a> pa ga bomo popravili."
+
+#~ msgid "CREATE A NEW BANNER"
+#~ msgstr "NAREDITE SI NOVO PASICO"
+
+#~ msgid "ABOUT AFFILIATES"
+#~ msgstr "O ZAVEZNIKIH"
+
+#~ msgid "skip to navigation"
+#~ msgstr "preskoči na navigacijo"
+
+#~ msgid "switch language"
+#~ msgstr "premenjaj jezik"
+
+#~ msgid "DOWNLOADS"
+#~ msgstr "PRENOSI"
+
+#~ msgid "DOWNLOADS:"
+#~ msgstr "PRENOSI:"
+
+#~ msgid "Directions"
+#~ msgstr "Navodila"
+
+#~ msgid "Copy the code below and paste it anywhere on your website or blog to link to the Firefox download page. Your Firefox Affiliates ID is embedded in this code."
+#~ msgstr "Kopirajte spodnjo kodo in jo prilepite kjerkoli na svojo spletno stran ali v blog, skupaj s povezavo na stran za prenos Firefoxa. Vaš ID pri Zaveznikih Firefoxa je vgrajen v to kodo."
+
+#~ msgid "Locale"
+#~ msgstr "Območna nastavitev"
+
+#~ msgid "<span>1</span>PICK A CATEGORY"
+#~ msgstr "<span>1</span>IZBERITE KATEGORIJO"
+
+#~ msgid "<span>2</span>PICK A BANNER"
+#~ msgstr "<span>2</span>IZBERITE PASICO"
+
+#~ msgid "<span>3</span>CONFIGURE &amp; POST"
+#~ msgstr "<span>3</span>UREDITE IN OBJAVITE"
+
+#~ msgid "name"
+#~ msgstr "ime"
+
+#~ msgid "category preview"
+#~ msgstr "predogled kategorij"
+
+#~ msgid "image size"
+#~ msgstr "velikost slike"
+
+#~ msgid "image color"
+#~ msgstr "barva slike"
+
+#~ msgid "image file"
+#~ msgstr "datoteka s sliko"
+
+#~ msgid "Receive emails"
+#~ msgstr "Prejemanje pošte"
+
+#~ msgid "Copy Code to Clipboard &raquo;"
+#~ msgstr "Kopiraj kodo v odložišče  &raquo;"
+
+#~ msgid "Moved? Changed your name? Just click on the edit your profile button in the upper left corner of the site."
+#~ msgstr "Ste se preselili? Spremenili svoje ime? Kliknite na gumb za urejanje svojega profila v zgornjem levem kotu strani."
+
+#~ msgid "Username not available"
+#~ msgstr "Uporabniško ime ni na razpolago"
+
+#~ msgid "Password must be 8 characters or longer and include at least one Latin letter and one number."
+#~ msgstr "Geslo mora biti 8 znakov ali več, in mora vsebovati vsaj eno latinsko črko in eno številko."
+
+#~ msgid "Edit your profile"
+#~ msgstr "Uredite svoj profil"
+
+#~ msgid "TOP 5 AFFILIATES WITH THE MOST DOWNLOADS"
+#~ msgstr "5 PARTNERJEV Z NAJVEČ PRENOSI"
+
+#~ msgid "Check out how many people are downloading Firefox. Where are you on the leaderboard? Leaderboard statistics are updated at midnight PT each day."
+#~ msgstr "Poglejte, koliko ljudi si prenaša Firefox. Kje sem na lestvici vodilnih? Statistiko vodečih se posodablja enkrat dnevno opolnoči po pacifiškem času."
+
+#~ msgid "{{ size }} pixels"
+#~ msgstr "{{ size }}točk"
+
+#~ msgid "New password"
+#~ msgstr "Novo geslo"
+
+#~ msgid "Confirm password"
+#~ msgstr "Potrdite geslo"
+
+#~ msgid "Passwords do not match."
+#~ msgstr "Gesli se ne ujemata."
+
+#~ msgid "Field is too long."
+#~ msgstr "Polje je predolgo."
+
+#~ msgid "Name"
+#~ msgstr "Ime"
+
+#~ msgid "Please activate your account"
+#~ msgstr "Prosim aktivirajte svoj račun"
+
+#~ msgid "Activation Key"
+#~ msgstr "Ključ za aktivacijo"
+
+#~ msgid "We've just sent you an email with your password to: <span>%(email)s <a href=\"%(homepage)s\">(Change)</a></span>"
+#~ msgstr "Poslali smo vam e-pošto z vašim geslom na <span>%(email)s <a href=\"%(homepage)s\">(Change)</a></span>"
+
+#~ msgid "Username or password incorrect."
+#~ msgstr "Uporabniško ime ali geslo napačno."
+
+#~ msgid "FULL NAME"
+#~ msgstr "POLNO IME"
+
+#~ msgid "EMAIL"
+#~ msgstr "EPOŠTA"
+
+#~ msgid "Your full name"
+#~ msgstr "Vaše polno ime"
